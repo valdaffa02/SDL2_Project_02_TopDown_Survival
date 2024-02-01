@@ -1,0 +1,31 @@
+﻿  Game.cpp
+D:\Projects\SDL\GameDev\SDLProject_02_TopDown_Survival\src\ECS\TransformComponent.h(51,17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'src/Game.cpp')
+  
+D:\Projects\SDL\GameDev\SDLProject_02_TopDown_Survival\src\ECS\TransformComponent.h(60,17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'src/Game.cpp')
+  
+D:\Projects\SDL\GameDev\SDLProject_02_TopDown_Survival\src\ECS\KeyboardController.h(65,35): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'src/Game.cpp')
+  
+D:\Projects\SDL\GameDev\SDLProject_02_TopDown_Survival\src\ECS\KeyboardController.h(66,35): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'src/Game.cpp')
+  
+D:\Projects\SDL\GameDev\SDLProject_02_TopDown_Survival\src\Game.cpp(381,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Projects\SDL\GameDev\SDLProject_02_TopDown_Survival\src\Game.cpp(382,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Projects\SDL\GameDev\SDLProject_02_TopDown_Survival\src\ECS\ECS.h(93,41): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+D:\Projects\SDL\GameDev\SDLProject_02_TopDown_Survival\src\ECS\ECS.h(93,41): warning C4244:         with
+D:\Projects\SDL\GameDev\SDLProject_02_TopDown_Survival\src\ECS\ECS.h(93,41): warning C4244:         [
+D:\Projects\SDL\GameDev\SDLProject_02_TopDown_Survival\src\ECS\ECS.h(93,41): warning C4244:             _Ty=int
+D:\Projects\SDL\GameDev\SDLProject_02_TopDown_Survival\src\ECS\ECS.h(93,41): warning C4244:         ]
+  (compiling source file 'src/Game.cpp')
+  D:\Projects\SDL\GameDev\SDLProject_02_TopDown_Survival\src\ECS\ECS.h(93,41):
+  the template instantiation context (the oldest one first) is
+  	D:\Projects\SDL\GameDev\SDLProject_02_TopDown_Survival\src\Game.cpp(103,8):
+  	see reference to function template instantiation 'T &Entity::addComponent<TransformComponent,float,float,int,int,int,int&>(float &&,float &&,int &&,int &&,int &&,int &)' being compiled
+          with
+          [
+              T=TransformComponent
+          ]
+  
+  SDLProject_02_TopDown_Survival.vcxproj -> D:\Projects\SDL\GameDev\SDLProject_02_TopDown_Survival\x64\Debug\SDLProject_02_TopDown_Survival.exe
